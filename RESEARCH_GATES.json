@@ -1,0 +1,279 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 26 November 2026 for 0.1.0-candidate from the dated searches of the internal AI-assisted review (24 November 2026), the source reading record, the corpus overlap check, refs.bib, REVIEW_SUMMARY.md and the paper's own positioning (Section 1, Table 1, Section 9). It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Inner radius of the reliability zeros of K_n: -n log h_n - 2 log n -> -2(1 + log W_0), with W_0 Waldvogel's rotation-restricted Whittaker constant",
+   "unit": "statement",
+   "paperLocation": "abstract; Theorem 8",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Buys (R_n -> 1 inside the disk); Chang-Shrock Sec. 6 (numerical oval); Waldvogel 1983 (W_0 itself)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "no determination of the inner radius found; W_0 and its numerical value credited to Waldvogel"
+  },
+  {
+   "claim": "Extremal directions +-2.3932... (about 137.1 degrees), uniqueness of the minimising conjugate pair and h_n to o(n^-2)",
+   "unit": "statement",
+   "paperLocation": "Theorem 9 (computer-assisted)",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Waldvogel 1983 (numerical minimiser); Waldvogel 1987 chapter not consulted (closed access, not cited, not load-bearing)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "framed in the paper as a certification of Waldvogel's numerical value; the uniqueness certificate was not found in the 1983 report"
+  },
+  {
+   "claim": "Joint limit law of angle and rescaled radius on [pi/30, 59pi/30] (mass 29/30) with an explicit profile",
+   "unit": "statement",
+   "paperLocation": "Theorem 10 (computer-assisted); Figure 1",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Scott-Sokal ref. 55 (announced, not found published)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "the announced Scott-Sokal study is credited in Section 9"
+  },
+  {
+   "claim": "Negative real axis: exactly one zero for n = 0, 3 (mod 4), none otherwise, for large n; location to O(n^-4)",
+   "unit": "statement",
+   "paperLocation": "Theorem 7; Table 2",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Buys Corollary 2.3 (existence of a real zero tending to -1 for n = 0, 3 mod 4); Brown-McMullin; Omar",
+   "verdict": "partially-known-cited",
+   "verdictNote": "existence for n = 0, 3 mod 4 due to Buys; exact count and location new in the searched sources"
+  },
+  {
+   "claim": "Matroid criterion: zero-counting measures of spanning reliability converge to uniform iff rank/size -> 0 (answers Buys)",
+   "unit": "statement",
+   "paperLocation": "Proposition 1",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Hughes-Nikeghbali deterministic theorem",
+   "verdict": "partially-known-cited",
+   "verdictNote": "a short consequence of Hughes-Nikeghbali, credited as such"
+  },
+  {
+   "claim": "Method: half-degree split of the exponential generating function into a giant-component term and a small-components term governed by the deformed exponential; interval-arithmetic certificates",
+   "unit": "method",
+   "paperLocation": "Lemmas 2-6; Section 8",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "web and arXiv searches by the internal review panel (Semantic Scholar relevance search rate-limited; its citation list for Buys arXiv:2604.07541 was empty); the Evidence Press corpus (site papers/ and the batch corpus list)",
+     "query": "combinations of \"complete graph\", \"reliability\", \"reliability roots\", \"zero-counting measure\", \"unit circle\", \"Buys\", \"Mallows-Riordan\", \"Whittaker constant\", \"Waldvogel\", \"deformed exponential\""
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Buys (arXiv:2604.07541), Waldvogel 1983 (Oberwolfach report), Sokal 2011 slides, Scott-Sokal (arXiv:0803.1477), Alsmeyer-Bostan-Raschel-Simon (arXiv:2112.03016), Gilbert 1959, Hughes-Nikeghbali, Chang-Shrock (cond-mat/0208538), Royle-Sokal (math/0301199), Brown-DeGagne (1906.02359), Brown-McMullin, Omar (2604.03530), Bencs-Piombi-Regts (2512.11504), Backman-Hopkins, Johansson (Arb)",
+     "query": "Buys Lemma 2.1, Corollary 2.3, Question 4.1 and the measure question; Waldvogel p. 5 (W_0, expansion (3), conjecture W = W_0); Sokal slides 5 and 8; Scott-Sokal (3.9), (3.48)-(3.51), Sec. 3.4.1 and ref. 55; Alsmeyer et al. eq. (2) and Remark 2.2; Gilbert eqs. (3)-(4); Hughes-Nikeghbali Theorem 2"
+    }
+   ],
+   "closestPriorWork": "Gilbert 1959 (exponential formula, recurrence); Sokal 2011 (fixed-parameter coefficient asymptotics); Scott-Sokal partition formulae; Arb",
+   "verdict": "partially-known-cited",
+   "verdictNote": "classical inputs separated from new statements in Table 1"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Buys, P. (2026), Density of reliability roots of simple graphs in the unit disk, arXiv:2604.07541",
+   "usedFor": "question answered; R_n -> 1 inside the disk; real zero near -1",
+   "readWhat": "whole paper",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://arxiv.org/abs/2604.07541"
+  },
+  {
+   "citation": "Waldvogel, J. (1983), The Whittaker constant, Oberwolfach Tagungsbericht 35/1983, 4-5",
+   "usedFor": "W_0, its numerical value and expansion (3)",
+   "readWhat": "whole report entry",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://oda.mfo.de/handle/mfo/1017"
+  },
+  {
+   "citation": "Sokal, A. D. (2011), The deformed exponential function and a plethora of related things, seminar slides",
+   "usedFor": "fixed-parameter coefficient asymptotics; Big Conjecture #3",
+   "readWhat": "all slides",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://www.mark-kac-seminar.nl/2010-2011/2011-June-Sokal.pdf"
+  },
+  {
+   "citation": "Scott, A. D. and Sokal, A. D. (2009), Some variants of the exponential formula, SLC 61A, B61Ae",
+   "usedFor": "partition formulae; announced work",
+   "readWhat": "whole paper (arXiv:0803.1477)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://arxiv.org/abs/0803.1477"
+  },
+  {
+   "citation": "Alsmeyer, G., Bostan, A., Raschel, K. and Simon, T. (2023), Persistence for a class of order-one autoregressive processes and Mallows-Riordan polynomials, Adv. Appl. Math. 150, 102555",
+   "usedFor": "identity (2) and Remark 2.2",
+   "readWhat": "whole paper (arXiv:2112.03016)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.aam.2023.102555"
+  },
+  {
+   "citation": "Gilbert, E. N. (1959), Random graphs, Ann. Math. Statist. 30, 1141-1144",
+   "usedFor": "exponential formula, recurrence, 1 - n q^{n-1}",
+   "readWhat": "whole paper",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1214/aoms/1177706098"
+  },
+  {
+   "citation": "Hughes, C. P. and Nikeghbali, A. (2008), The zeros of random polynomials cluster uniformly near the unit circle, Compos. Math. 144, 734-746",
+   "usedFor": "deterministic criterion (Theorem 2)",
+   "readWhat": "whole paper",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1112/S0010437X07003302"
+  },
+  {
+   "citation": "Chang, S.-C. and Shrock, R. (2003), Reliability polynomials and their asymptotic limits for families of graphs, J. Stat. Phys. 112, 1019-1077",
+   "usedFor": "numerical oval for K_n (Sec. 6)",
+   "readWhat": "whole paper (cond-mat/0208538)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1023/A:1024663508526"
+  },
+  {
+   "citation": "Royle, G. and Sokal, A. D. (2004), The Brown-Colbourn conjecture on zeros of reliability polynomials is false, J. Combin. Theory Ser. B 91, 345-360",
+   "usedFor": "counterexample modulus",
+   "readWhat": "whole paper (math/0301199)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.jctb.2004.03.008"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "The negative-axis count is eventual; no explicit threshold",
+   "closingQuestion": "Can explicit constants plus a finite computation give the count for every n?",
+   "triedOrSearched": "assessed by the lead: needs explicit constants in every o(1) of Lemmas 2-5 and certified checks up to a threshold likely in the thousands",
+   "estimatedCost": "one to two weeks",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 9, first item",
+   "whyNotClosedNow": "beyond a cheap computation; exact check up to n = 24 recorded"
+  },
+  {
+   "limitation": "The limit law omits an arc of 1/30 of the circle around q = 1",
+   "closingQuestion": "Does an analytic argument cover theta -> 0?",
+   "triedOrSearched": "numerics suggest the smallest zero stays simple; each fixed arc is a finite certificate",
+   "estimatedCost": "new analysis",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 9, third item",
+   "whyNotClosedNow": "the problem passes into the connectivity window of the real random graph"
+  },
+  {
+   "limitation": "Whether every nontrivial zero lies in the open unit disk",
+   "closingQuestion": "Does a known result settle Buys Question 4.1 for K_n?",
+   "triedOrSearched": "literature checked: equivalent to a conjecture of Sokal; open",
+   "estimatedCost": "unknown",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 9, second item",
+   "whyNotClosedNow": "open problem"
+  },
+  {
+   "limitation": "The arc result first covered only 6/7 of the circle",
+   "closingQuestion": "Can the certificate be extended cheaply?",
+   "triedOrSearched": "yes: check_arc_extension.py, twelve sub-arcs down to pi/30",
+   "estimatedCost": "hours",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "The finite-size formula hid a term of the same order",
+   "closingQuestion": "Is the next term explicit?",
+   "triedOrSearched": "yes: cubic term from Waldvogel's expansion; Table 2",
+   "estimatedCost": "hours",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Certificate scripts relied on assert in the source bundle",
+   "closingQuestion": "Do the checks fail correctly under python -O?",
+   "triedOrSearched": "require() raising CertificateFailure; negative controls exit 1 under -O",
+   "estimatedCost": "hours",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Novelty rests on searches of limited scope",
+   "closingQuestion": "Would further indexes change attribution?",
+   "triedOrSearched": "web and arXiv; Semantic Scholar rate-limited; cited sources read",
+   "estimatedCost": "subscription indexes",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "subscription indexes were outside the searched corpus",
+   "whyNotClosedNow": "recorded here; the paper positions its results against the sources read"
+  }
+ ],
+ "extensionScout": {
+  "by": "the internal review panel and the lead",
+  "date": "2026-11-24",
+  "proposals": [
+   "effective threshold for the negative-axis count (E-1)",
+   "extend the arc beyond 6/7 (E-2)",
+   "finite-size array for general phases (E-4)",
+   "window near q = 1 (E-3)"
+  ],
+  "actions": [
+   "not done: one to two weeks; open in Section 9",
+   "done: 29/30 by check_arc_extension.py",
+   "partly done: O(n^-2) remainder near the negative axis",
+   "not done: needs new analysis"
+  ]
+ }
+}

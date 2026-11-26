@@ -1,0 +1,13 @@
+a=pi/4 0.78539816339744830962
+H_negative_axis=-2(1+log a) -1.51687104946
+H_inner=-2(1+log A) lower -1.39170152316291
+H_inner=-2(1+log A) upper -1.39170152316291
+theta_star_degrees_lo 137.1226817
+theta_star_degrees_hi 137.1226817
+Jensen_sum_I0(4)=sum 4^k/(k!)^2 11.30192195
+(2/a)^4 42.04946332
+2/a 2.546479089
+log 2 0.6931471806
+leading-order h_n at n=100 0.92479204
+leading-order h_n at n=1000 0.98765305
+leading-order h_n at n=1000000 0.99997376

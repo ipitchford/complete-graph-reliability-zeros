@@ -1,0 +1,13 @@
+no zero on |z|=37/20 for 1/9*pi <= theta <= 1/7*pi: 58 boxes, depth 8
+no zero on |z|=21/10 for 1/11*pi <= theta <= 1/9*pi: 71 boxes, depth 8
+no zero on |z|=47/20 for 1/13*pi <= theta <= 1/11*pi: 100 boxes, depth 9
+no zero on |z|=13/5 for 1/15*pi <= theta <= 1/13*pi: 155 boxes, depth 10
+no zero on |z|=57/20 for 1/17*pi <= theta <= 1/15*pi: 207 boxes, depth 10
+no zero on |z|=63/20 for 1/19*pi <= theta <= 1/17*pi: 345 boxes, depth 11
+no zero on |z|=33/10 for 1/20*pi <= theta <= 1/19*pi: 246 boxes, depth 10
+no zero on |z|=7/2 for 1/22*pi <= theta <= 1/20*pi: 595 boxes, depth 12
+no zero on |z|=15/4 for 1/24*pi <= theta <= 1/22*pi: 1053 boxes, depth 12
+no zero on |z|=4 for 1/26*pi <= theta <= 1/24*pi: 1757 boxes, depth 13
+no zero on |z|=17/4 for 1/28*pi <= theta <= 1/26*pi: 2964 boxes, depth 14
+no zero on |z|=91/20 for 1/30*pi <= theta <= 1/28*pi: 4176 boxes, depth 15
+PASS: one simple zero inside the certified contour for every theta in [1/30*pi, pi]; arc mass 29/30

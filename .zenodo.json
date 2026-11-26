@@ -1,0 +1,104 @@
+{
+ "title": "The innermost reliability zeros of complete graphs and Waldvogel's constant",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> Take a network in which every link fails independently with the same probability q. The all-terminal reliability polynomial R(q) is the chance that the network stays connected. For the complete graph K<sub>n</sub> (every pair of n nodes linked) it is the probability that a random graph is connected. Because R is a polynomial, one can ask where it vanishes for complex q. These reliability zeros have been studied since the Brown&ndash;Colbourn conjecture that they all lie in the closed unit disk, which Royle and Sokal showed is false in general. Plots show the zeros of K<sub>n</sub> creeping out towards the unit circle as n grows; Buys proved that R<sub>n</sub> &rarr; 1 inside the disk and asked whether the zeros of graphs and matroids spread evenly round the circle.</p><p><strong>Results.</strong> (1) The smallest modulus h<sub>n</sub> of a zero of R<sub>n</sub> satisfies &minus;n log h<sub>n</sub> = 2 log n &minus; 2(1 + log W<sub>0</sub>) + o(1), where W<sub>0</sub> = 0.7377507574&hellip; is the rotation-restricted Whittaker constant studied by Waldvogel in 1983; so the innermost zeros lie at distance about (2 log n &minus; 1.392)/n inside the unit circle. (2) Interval arithmetic shows that the innermost zeros approach the two directions arg q = &plusmn;2.3932&hellip; (about &plusmn;137.1&deg;), not the negative real axis, and gives h<sub>n</sub> to absolute error o(n<sup>&minus;2</sup>). (3) On the arc &pi;/30 &le; arg q &le; 59&pi;/30, which asymptotically carries 29/30 of the zeros, a joint limit law for the angle and the rescaled distance to the circle, with an explicit profile. (4) For all sufficiently large n the negative real axis carries exactly one zero when n &equiv; 0, 3 (mod 4) and none otherwise, located with error O(n<sup>&minus;4</sup>); exact computation confirms the count for 2 &le; n &le; 24. (5) A short criterion based on the theorem of Hughes and Nikeghbali, answering a question of Buys: the zero-counting measures of the spanning reliability of loopless matroids converge to the uniform measure on the unit circle exactly when rank divided by size tends to zero.</p><p><strong>Idea of the proof.</strong> The generating function for connected graphs is cut at half its length. A graph has at most one component with more than n/2 vertices, so the reliability splits exactly into a one-giant-component term close to 1 (Gilbert) and an only-small-components term governed by the smallest zero of the deformed exponential function (Sokal). A zero needs the two terms to cancel, which pins the radius; the closest approach occurs where that smallest zero is smallest, which is Waldvogel's constant.</p><p><strong>Limits.</strong> The negative-axis count is proved for all sufficiently large n, with no explicit threshold, and checked exactly for 2 &le; n &le; 24. The limit law leaves out an arc of 1/30 of the circle near q = 1 and says nothing about a vanishing fraction of the zeros; whether every zero of R<sub>n</sub> lies inside the unit circle is still open. The directions, the precise radius and the 29/30 arc rest on interval-arithmetic certificates.</p><p><strong>Contents.</strong> The paper (LaTeX source and PDF), its two figures with data, ten Python programs (exact real-zero counts, the Whittaker/Waldvogel certificate with two independent interval backends, the arc certificates, high-precision finite-size checks, derived constants and the figures) and their recorded outputs. Certificate programs raise an error on any failed inequality, also under python -O. Also included: the bibliography, a machine-readable index, a research-gate record, a review summary, a replay receipt and SHA-256 sums.</p><p><strong>Assurance.</strong> Written proofs with computer-assisted interval certificates. Internal AI-assisted review only: a combined five-perspective Claude review panel, one revision round with extensions, a re-review, a proof audit of the new and rewritten proofs, and clean replays with negative controls. No Astra/Codex review took place. This is not peer review, independent reproduction or formal verification. Creator: Anonymous. Text CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-26",
+ "keywords": [
+  "reliability polynomial",
+  "complete graph",
+  "polynomial zeros",
+  "Whittaker constant",
+  "deformed exponential function",
+  "random graphs",
+  "interval arithmetic",
+  "matroids",
+  "Tutte polynomial"
+ ],
+ "notes": "Code (*.py and the CI workflow) is MIT; prose, manuscript, figures, recorded outputs and records are CC0-1.0.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/complete-graph-reliability-zeros/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/complete-graph-reliability-zeros/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.1016/j.aam.2023.102555",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1109/tc.2017.2690633",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1186/s40687-017-0107-z",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.dam.2026.03.037",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1023/a:1024663508526",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1214/aoms/1177706098",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1112/s0010437x07003302",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jctb.2004.03.008",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2512.11504",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:1906.02359",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2604.07541",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2604.03530",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:0803.1477",
+   "relation": "references",
+   "scheme": "arxiv"
+  }
+ ]
+}

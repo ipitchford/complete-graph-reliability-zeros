@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "The innermost reliability zeros of complete graphs and Waldvogel's constant"
+abstract: "Unrefereed research candidate. The all-terminal reliability polynomial R_n(q) of the complete graph K_n is the probability that K_n stays connected when each edge fails independently with probability q. The smallest modulus h_n of a complex zero satisfies -n log h_n = 2 log n - 2(1 + log W_0) + o(1), where W_0 = 0.7377507574... is the rotation-restricted Whittaker constant studied by Waldvogel in 1983. Interval arithmetic shows that the innermost zeros approach the directions arg q = +-2.3932... (about +-137.1 degrees), not the negative real axis. On the arc pi/30 <= arg q <= 59pi/30, carrying 29/30 of the zeros asymptotically, a joint limit law for angle and rescaled radius holds with an explicit profile. For all sufficiently large n the negative real axis carries exactly one zero when n = 0, 3 (mod 4) and none otherwise (checked exactly for 2 <= n <= 24). A short criterion answers a question of Buys: zero-counting measures of the spanning reliability of loopless matroids converge to the uniform measure on the unit circle exactly when rank/size tends to zero."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-26"
+doi: "10.5281/zenodo.24546697"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24546697"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.24546696"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/complete-graph-reliability-zeros"
+url: "https://evidencepress.org/releases/complete-graph-reliability-zeros/"
+license: CC0-1.0
+keywords:
+  - reliability polynomial
+  - complete graph
+  - polynomial zeros
+  - Whittaker constant
+  - deformed exponential function
+  - interval arithmetic
+preferred-citation:
+  type: article
+  title: "The innermost reliability zeros of complete graphs and Waldvogel's constant"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.24546697"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

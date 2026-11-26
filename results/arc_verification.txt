@@ -1,0 +1,2 @@
+No zero on |z|=3/2 for pi/7 <= theta <= pi.
+Excluded boxes: 365 boxes below lower angle: 14 maximum depth: 6

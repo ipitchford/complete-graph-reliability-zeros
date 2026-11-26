@@ -1,0 +1,227 @@
+{
+ "degree": 60,
+ "precision_bits": 128,
+ "subarcs": [
+  {
+   "theta_over_pi": [
+    "1/9",
+    "1/7"
+   ],
+   "radius": "37/20",
+   "boxes": 58,
+   "max_depth": 8
+  },
+  {
+   "theta_over_pi": [
+    "1/11",
+    "1/9"
+   ],
+   "radius": "21/10",
+   "boxes": 71,
+   "max_depth": 8
+  },
+  {
+   "theta_over_pi": [
+    "1/13",
+    "1/11"
+   ],
+   "radius": "47/20",
+   "boxes": 100,
+   "max_depth": 9
+  },
+  {
+   "theta_over_pi": [
+    "1/15",
+    "1/13"
+   ],
+   "radius": "13/5",
+   "boxes": 155,
+   "max_depth": 10
+  },
+  {
+   "theta_over_pi": [
+    "1/17",
+    "1/15"
+   ],
+   "radius": "57/20",
+   "boxes": 207,
+   "max_depth": 10
+  },
+  {
+   "theta_over_pi": [
+    "1/19",
+    "1/17"
+   ],
+   "radius": "63/20",
+   "boxes": 345,
+   "max_depth": 11
+  },
+  {
+   "theta_over_pi": [
+    "1/20",
+    "1/19"
+   ],
+   "radius": "33/10",
+   "boxes": 246,
+   "max_depth": 10
+  },
+  {
+   "theta_over_pi": [
+    "1/22",
+    "1/20"
+   ],
+   "radius": "7/2",
+   "boxes": 595,
+   "max_depth": 12
+  },
+  {
+   "theta_over_pi": [
+    "1/24",
+    "1/22"
+   ],
+   "radius": "15/4",
+   "boxes": 1053,
+   "max_depth": 12
+  },
+  {
+   "theta_over_pi": [
+    "1/26",
+    "1/24"
+   ],
+   "radius": "4",
+   "boxes": 1757,
+   "max_depth": 13
+  },
+  {
+   "theta_over_pi": [
+    "1/28",
+    "1/26"
+   ],
+   "radius": "17/4",
+   "boxes": 2964,
+   "max_depth": 14
+  },
+  {
+   "theta_over_pi": [
+    "1/30",
+    "1/28"
+   ],
+   "radius": "91/20",
+   "boxes": 4176,
+   "max_depth": 15
+  }
+ ],
+ "junctions": [
+  {
+   "theta_over_pi": "1/7",
+   "radii": [
+    "3/2",
+    "37/20"
+   ],
+   "boxes": 77,
+   "max_depth": 9
+  },
+  {
+   "theta_over_pi": "1/9",
+   "radii": [
+    "37/20",
+    "21/10"
+   ],
+   "boxes": 88,
+   "max_depth": 9
+  },
+  {
+   "theta_over_pi": "1/11",
+   "radii": [
+    "21/10",
+    "47/20"
+   ],
+   "boxes": 138,
+   "max_depth": 10
+  },
+  {
+   "theta_over_pi": "1/13",
+   "radii": [
+    "47/20",
+    "13/5"
+   ],
+   "boxes": 221,
+   "max_depth": 10
+  },
+  {
+   "theta_over_pi": "1/15",
+   "radii": [
+    "13/5",
+    "57/20"
+   ],
+   "boxes": 336,
+   "max_depth": 11
+  },
+  {
+   "theta_over_pi": "1/17",
+   "radii": [
+    "57/20",
+    "63/20"
+   ],
+   "boxes": 720,
+   "max_depth": 13
+  },
+  {
+   "theta_over_pi": "1/19",
+   "radii": [
+    "63/20",
+    "33/10"
+   ],
+   "boxes": 548,
+   "max_depth": 12
+  },
+  {
+   "theta_over_pi": "1/20",
+   "radii": [
+    "33/10",
+    "7/2"
+   ],
+   "boxes": 1000,
+   "max_depth": 13
+  },
+  {
+   "theta_over_pi": "1/22",
+   "radii": [
+    "7/2",
+    "15/4"
+   ],
+   "boxes": 1955,
+   "max_depth": 14
+  },
+  {
+   "theta_over_pi": "1/24",
+   "radii": [
+    "15/4",
+    "4"
+   ],
+   "boxes": 3297,
+   "max_depth": 14
+  },
+  {
+   "theta_over_pi": "1/26",
+   "radii": [
+    "4",
+    "17/4"
+   ],
+   "boxes": 5583,
+   "max_depth": 15
+  },
+  {
+   "theta_over_pi": "1/28",
+   "radii": [
+    "17/4",
+    "91/20"
+   ],
+   "boxes": 11499,
+   "max_depth": 16
+  }
+ ],
+ "theta0_over_pi": "1/30",
+ "arc_mass": "29/30",
+ "seconds": 7.8
+}

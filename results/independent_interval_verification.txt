@@ -1,0 +1,12 @@
+A simple zero is within 10^-23 of -0.733052523296829803468871187856 + 0.083127481904870509963603546822i.
+Certified no zeros on |z| = 0.73775075747822433247 for all unit phases.
+Terminal phase rectangles: 958 maximum depth: 37
+All zeros in the enclosed radial band have phases in the stated patch, up to conjugation.
+Terminal phase rectangles: 355 maximum depth: 14
+All minimisers with 0 <= theta <= pi have 2.39224 <= theta <= 2.39425.
+Rouche gives one simple smooth branch there. Lower bound on the second
+derivative of its squared modulus: 0.3205080269571271
+Radial coefficient Re(lambda) is between -0.2764138907713 and -0.2764138907709.
+Exactly one conjugate pair of phases attains W_0.
+Positive minimising argument: 2.39324227413489 < theta < 2.39324227413490 radians.
+Certified enclosure for W_0: 0.73775075747822433247 < W_0 < 0.73775075747822433248

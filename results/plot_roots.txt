@@ -1,0 +1,1 @@
+K14: 78 disjoint certified root disks, each of radius 1e-22; 13 further roots at 1.

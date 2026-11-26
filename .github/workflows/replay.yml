@@ -1,0 +1,53 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  replay:
+    name: Manifest; every program (certificates under python -O); comparison under the declared policy; negative controls
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Install pinned packages
+        run: python3 -m pip install -r requirements.txt
+      - name: Run every program in a fresh copy (cwd = code/)
+        run: |
+          D="$RUNNER_TEMP/pkg"; mkdir -p "$D/results" "$D/figures"; cp -R code "$D/"
+          cd "$D/code"
+          python3 -E -s -c 'import sys, flint, mpmath; print(sys.version, flint.__version__, mpmath.__version__)'
+          set -e
+          python3 -E -s -B -O verify.py > ../results/verify.txt
+          python3 -E -s -B -O whittaker_certificate.py > ../results/whittaker_verification.txt
+          python3 -E -s -B -O whittaker_certificate.py --mpmath > ../results/whittaker_verification_mpmath.txt
+          python3 -E -s -B -O check_intervals_independent.py > ../results/independent_interval_verification.txt
+          python3 -E -s -B -O check_arc.py > ../results/arc_verification.txt
+          python3 -E -s -B -O check_intervals_independent.py --arc > ../results/independent_arc_verification.txt
+          python3 -E -s -B -O check_arc_extension.py ../results/arc_extension.json > ../results/arc_extension.txt
+          python3 -E -s -B -O finite_size.py ../results/finite_size.json > ../results/finite_size.txt
+          python3 -E -s -B constants.py ../results/constants.json > ../results/constants.txt
+          python3 -E -s -B profile_figure.py ../figures > ../results/profile_figure.txt
+          python3 -E -s -B plot_roots.py > ../results/plot_roots.txt
+          python3 -E -s -B -O check_arc_extension.py --negative-controls > ../results/arc_extension_negative_controls.txt
+      - name: Negative control (wrong Waldvogel enclosure must fail under python -O)
+        run: |
+          N="$RUNNER_TEMP/neg1"; mkdir -p "$N"; cp -R code "$N/"; cd "$N/code"
+          sed -i "s/^LOWER = '0.73775075747822433247'/LOWER = '0.73800000000000000000'/; s/^UPPER = '0.73775075747822433248'/UPPER = '0.73800000000000000001'/" whittaker_certificate.py
+          grep -q "^LOWER = '0.73800000000000000000'" whittaker_certificate.py
+          if python3 -E -s -B -O whittaker_certificate.py > out.txt 2>&1; then echo "wrong enclosure not detected"; exit 1; fi
+          grep -q "ArithmeticError" out.txt
+          echo "negative control detected"
+      - name: Compare with the recorded outputs
+        # Declared policy (also in README.md, ENVIRONMENT.txt and REPLAY_RECEIPT.md): see .github/ci/compare_outputs.py.
+        run: python3 -I .github/ci/compare_outputs.py "$RUNNER_TEMP/pkg" .
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"
